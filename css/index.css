@@ -149,7 +149,7 @@ h5 {
 .container {
   max-width: 880px;
   width: 100%;
-  margin: auto;
+  margin: 2rem auto;
   border: 2px solid black;
   padding-top: 20px;
 }
@@ -172,65 +172,66 @@ h5 {
   color: black;
   padding-left: 2rem;
 }
-.container section .intro {
+.container .intro {
   max-width: 100%;
 }
-.container section .intro div .intro-text {
+.container .intro .intro-text {
   max-width: 100%;
   border: 5px solid red;
 }
-.container section .intro div .intro-text h1 {
+.container .intro .intro-text h1 {
   font-size: 2.7rem;
   border: 1px solid red;
 }
-.container section .intro div .intro-text p {
+.container .intro .intro-text p {
   font-size: 3rem;
   letter-spacing: 1rem;
 }
-.container section .intro div .intro-text button {
+.container .intro .intro-text button {
   max-width: 5rem;
 }
-.container section .intro div .intro-text section .skills {
+.container .intro .intro-text .skills {
   max-width: 100%;
   border: 1px solid blue;
 }
-.container section .intro div .intro-text section .skills div .skills-text {
+.container .intro .intro-text .skills .skills-text {
   max-width: 100%;
 }
-.container section .intro div .intro-text section .skills div .skills-text p {
+.container .intro .intro-text .skills .skills-text p {
   font-size: 1rem;
   letter-spacing: 1rem;
 }
-.container section .intro div .intro-text section .skills div .skills-text ul {
+.container .intro .intro-text .skills .skills-text ul {
   list-style: circle;
   padding: 2rem;
 }
-.container section .intro div .intro-text section .skills div .skills-text ul li {
+.container .intro .intro-text .skills .skills-text ul li {
   background: #cce5ff;
 }
-.container section .intro div .intro-text section .work-history {
+.container .intro .intro-text .work-history {
   max-width: 100%;
+  display: flex;
 }
-.container section .intro div .intro-text section .work-history div .history-text {
+.container .intro .intro-text .work-history .history-text {
   border: 2px solid red;
 }
-.container section .intro div .intro-text section .work-history div .history-text h2 {
+.container .intro .intro-text .work-history .history-text h2 {
   border: 1px solid black;
 }
-.container section .intro div .intro-text section .work-history div .history-text ul {
+.container .intro .intro-text .work-history .history-text ul {
   list-style: circle;
   padding: 2rem;
   border: 1px solid black;
 }
-.container section .intro div .intro-text section .work-history div .history-text ul li {
+.container .intro .intro-text .work-history .history-text ul li {
   background: #cce5ff;
 }
-.container section .intro div .intro-text section .work-history div .contact {
+.container .intro .intro-text .work-history .contact {
   display: flex;
   justify-content: center;
   align-content: center;
   border: 2px solid black;
 }
-.container section .intro div .intro-text section .work-history div .contact p {
+.container .intro .intro-text .work-history .contact p {
   line-height: 20px;
 }

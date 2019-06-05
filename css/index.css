@@ -143,28 +143,94 @@ h3,
 h4,
 h5 {
   font-family: 'Bangers', cursive;
-  letter-spacing: 10rem;
+  letter-spacing: 1rem;
   margin-bottom: 15rem;
 }
 .container {
   max-width: 880px;
   width: 100%;
   margin: auto;
+  border: 2px solid black;
+  padding-top: 20px;
 }
 .container header {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: flex-end;
+  border: 2px solid red;
 }
 .container header nav {
   display: flex;
   justify-content: space-around;
+  max-width: 100%;
+  border: 2px solid blue;
+  padding: 2rem;
 }
 .container header nav a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.7rem;
+  color: black;
+  padding-left: 2rem;
 }
 .container section .intro {
+  max-width: 100%;
+}
+.container section .intro div .intro-text {
+  max-width: 100%;
+  border: 5px solid red;
+}
+.container section .intro div .intro-text h1 {
+  font-size: 2.7rem;
+  border: 1px solid red;
+}
+.container section .intro div .intro-text p {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+.container section .intro div .intro-text button {
+  max-width: 5rem;
+}
+.container section .intro div .intro-text section .skills {
+  max-width: 100%;
+  border: 1px solid blue;
+}
+.container section .intro div .intro-text section .skills div .skills-text {
+  max-width: 100%;
+}
+.container section .intro div .intro-text section .skills div .skills-text p {
+  font-size: 1rem;
+  letter-spacing: 1rem;
+}
+.container section .intro div .intro-text section .skills div .skills-text ul {
+  list-style: circle;
+  padding: 2rem;
+}
+.container section .intro div .intro-text section .skills div .skills-text ul li {
+  background: #cce5ff;
+}
+.container section .intro div .intro-text section .work-history {
+  max-width: 100%;
+}
+.container section .intro div .intro-text section .work-history div .history-text {
+  border: 2px solid red;
+}
+.container section .intro div .intro-text section .work-history div .history-text h2 {
+  border: 1px solid black;
+}
+.container section .intro div .intro-text section .work-history div .history-text ul {
+  list-style: circle;
+  padding: 2rem;
+  border: 1px solid black;
+}
+.container section .intro div .intro-text section .work-history div .history-text ul li {
+  background: #cce5ff;
+}
+.container section .intro div .intro-text section .work-history div .contact {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid black;
+}
+.container section .intro div .intro-text section .work-history div .contact p {
+  line-height: 20px;
 }

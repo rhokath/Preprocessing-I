@@ -1,1 +1,237 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1rem;
+  margin-bottom: 15rem;
+}
+.container {
+  max-width: 880px;
+  width: 100%;
+  margin: 2rem auto;
+  border: 2px solid black;
+  padding-top: 20px;
+}
+.container header {
+  max-width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  border: 2px solid red;
+}
+.container header nav {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  border: 2px solid blue;
+  padding: 2rem;
+}
+.container header nav a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: black;
+  padding-left: 2rem;
+}
+.container .intro {
+  max-width: 100%;
+}
+.container .intro .intro-text {
+  max-width: 100%;
+  border: 5px solid red;
+}
+.container .intro .intro-text h1 {
+  font-size: 2.7rem;
+  border: 1px solid red;
+}
+.container .intro .intro-text p {
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+.container .intro .intro-text button {
+  max-width: 5rem;
+}
+.container .intro .intro-text .skills {
+  max-width: 100%;
+  border: 1px solid blue;
+}
+.container .intro .intro-text .skills .skills-text {
+  max-width: 100%;
+}
+.container .intro .intro-text .skills .skills-text p {
+  font-size: 1rem;
+  letter-spacing: 1rem;
+}
+.container .intro .intro-text .skills .skills-text ul {
+  list-style: circle;
+  padding: 2rem;
+}
+.container .intro .intro-text .skills .skills-text ul li {
+  background: #cce5ff;
+}
+.container .intro .intro-text .work-history {
+  max-width: 100%;
+  display: flex;
+}
+.container .intro .intro-text .work-history .history-text {
+  border: 2px solid red;
+}
+.container .intro .intro-text .work-history .history-text h2 {
+  border: 1px solid black;
+}
+.container .intro .intro-text .work-history .history-text ul {
+  list-style: circle;
+  padding: 2rem;
+  border: 1px solid black;
+}
+.container .intro .intro-text .work-history .history-text ul li {
+  background: #cce5ff;
+}
+.container .intro .intro-text .work-history .contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 2px solid black;
+}
+.container .intro .intro-text .work-history .contact p {
+  line-height: 20px;
+}

@@ -57,3 +57,129 @@ html, body {
     height: 100%;
 }
 
+html {
+	font-size: 62.5%;
+}
+//variables
+
+//mixins
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1rem;
+    margin-bottom: 15rem;
+}
+
+.container {
+	max-width: 880px;
+	width: 100%;
+	margin: 2rem auto;
+	border: 2px solid black;
+	padding-top: 20px;
+	header {
+		max-width: 100%;
+		display: flex;
+		justify-content: flex-end;
+		border: 2px solid red;
+		nav {
+			display: flex;
+			justify-content: space-around;
+			max-width: 100%;
+			border: 2px solid blue;
+			padding: 2rem;
+			a {
+				text-decoration: none;
+				font-size: 1.7rem;
+				color: black;
+				padding-left: 2rem;
+
+			}
+		}
+	}
+	.intro {
+		// display: flex;
+		// justify-content: flex-start;
+		// flex-direction: column;
+		// border: 5px solid red;
+		max-width: 100%;
+		img {
+
+		}
+			.intro-text {
+			max-width: 100%;
+			border: 5px solid red;
+			h1 {
+				font-size: 2.7rem;
+				border: 1px solid red;
+
+			}
+			p {
+				font-size: 3rem;
+				letter-spacing: 1rem;
+
+			}
+			button {
+				max-width: 5.0rem;
+
+			}
+	.skills {
+		max-width: 100%;
+		border: 1px solid blue;
+		 .skills-text {
+			max-width: 100%;
+			h2 {
+
+			}
+			p {
+				font-size: 1rem;
+				letter-spacing: 1rem;
+	
+			}
+			h3 {
+
+			}
+			ul {
+				list-style: circle;
+				padding: 2rem;
+				li {
+					background: #cce5ff;
+				}
+			}
+
+		}
+		
+	}
+	 .work-history {
+		max-width: 100%;
+		display: flex;
+	
+		 .history-text {
+			border: 2px solid red;
+			h2 {
+				border: 1px solid black;
+					
+
+		}
+			ul {
+			list-style: circle;
+			padding: 2rem;
+			border: 1px solid black;
+			li {
+				background: #cce5ff;
+			}
+		}
+		
+		}
+		 .contact {
+			display: flex;
+			justify-content: center;
+			align-content: center;
+			border: 2px solid black;
+			p {
+			line-height: 20px;
+			}
+		}
+	}		
+		}
+	}
+}
+
